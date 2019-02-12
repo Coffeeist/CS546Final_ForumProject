@@ -1,0 +1,18 @@
+{{#cats}}
+    <section class="row main-catsection">
+        <div class="col">
+            <header class="row main-cathead">
+                <div class="col">
+                    <h3>{{catName}}</h3>
+                </div>
+            </header>
+
+            {{#subs}}
+                <div class="row">
+                    <div class="col-9 main-subname"><a href="/sub/{{subId}}">{{subName}}</a></div>
+                    <div class="col-3 main-subposts">{{subPosts}} posts (WIP)</div>
+                </div>
+            {{/subs}}
+        </div>
+    </section>
+{{/cats}}

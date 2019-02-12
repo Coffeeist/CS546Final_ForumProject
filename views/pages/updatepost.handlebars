@@ -1,0 +1,31 @@
+<div class="failBox {{#if showMsg}} {{else}}d-none{{/if}}" role="alert">
+    {{msg}}
+</div>
+
+<div class="row">
+    <div class="col">
+        <form id="post-form" name="post-form" method="post" action="{{#if update}}/updatepost/{{postId}}{{else}}/addpost{{/if}}">
+
+            <div class="form-group row">
+                <label class="col-1 col-form-label" for="title">Title: </label>
+                <div class="col-6">
+                    <input class="form-control" type="text" name="title" id="title" value="{{threadTitle}}" {{#if lockTitle}}readonly{{/if}}>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-1 col-form-label" for="content">Content: </label>
+                <div class="col-6">
+                    <textarea class="form-control" name="content" id="content">{{content}}</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="btn-group">
+                    <button class="btn btn-primary" type="submit">{{#if update}}Update{{else}}Post{{/if}}</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

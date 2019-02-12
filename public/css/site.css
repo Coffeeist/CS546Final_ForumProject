@@ -1,0 +1,90 @@
+/*
+* Jeff McGirr CS546 Final Project
+* 20180803
+* I pledge my honor that I have abided by the Stevens Honor System
+* */
+
+/*--------------------------------------------------*/
+/* Universal */
+/*--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+/* set base font */
+* {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+}
+body {
+    font-size: 16px;
+}
+
+header {
+    background-color: dodgerblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header h1, header small {
+    color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: lightsteelblue;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .7em;
+    font-style: italic;
+    text-align: right;
+}
+
+.col-form-label {
+    text-align: right;
+}
+
+.main-catsection {
+    border-bottom: 5px solid lightblue;
+    margin-bottom: 15px;
+}
+
+.main-cathead {
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.main-cathead h3 {
+    margin: 0;
+}
+
+.main-subname, .sub-threadname {
+    font-weight: bold;
+}
+
+.main-subposts, .sub-threadposts {
+    font-style: italic;
+}
+
+.sub-postrow {
+    background-color: lightgrey;
+    border-top: 3px solid dodgerblue;
+    border-bottom: 3px solid dodgerblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.thread-post {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.thread-postinfo {
+    border-right: 1px solid grey;
+}

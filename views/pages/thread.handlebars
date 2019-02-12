@@ -1,0 +1,17 @@
+{{#posts}}
+    <div class="row thread-post">
+        <div class="col-3 thread-postinfo">
+            <p><strong>Posted by: </strong> {{postuser}}</p>
+            <p><strong>Posted on: </strong> {{postdate}}</p>
+            <a href="/updatepost/{{postid}}">Edit Post</a><br>
+            <a href="/deletepost/{{postid}}">Delete Post</a>
+        </div>
+        <div class="col-9 thread-postcontent">{{postcontent}}</div>
+    </div>
+{{/posts}}
+
+<div class="row">
+    <div class="col">
+        <a href="/addpost/{{threadId}}" class="btn btn-warning float-right" role="button">Reply</a>
+    </div>
+</div>
