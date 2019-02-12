@@ -19,3 +19,9 @@
 5. ???
 
 6. profit
+
+---
+
+### Notes
+
+-Due to time/requirements, session system isn't fully securely set up (cookies could be easily falsified)
