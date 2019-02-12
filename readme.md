@@ -1,4 +1,12 @@
-# Jeff McGirr CS546 Final Project readme
+# CS546 Final Project readme
+
+### Forum system built on Node/Express/HBS/Mongo
+
+---
+
+### Setup
+
+0. run npm install
 
 1. ensure mongo is running (run mongod)
 
