@@ -1,6 +1,6 @@
 # CS546 Final Project readme
 
-### Forum system built on Node/Express/HBS/Mongo
+### Forum system built on Node/Express/HBS/Mongo - August 2018
 
 ---
 
